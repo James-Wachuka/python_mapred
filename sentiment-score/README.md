@@ -1,3 +1,11 @@
+INTRODUCTION
+This is classic example of how python can be used to score sentiments in hadoop
+WHAT YOU NEED
+This example requires that one has a basic understanding of hadoop and mapreduce framework
+
+hadoop
+python
+
 This folder contains the map and reducer code for our mapreduce job
 some text files have also been included for the mapreduce job
 you can use the following commands  for running this job on your hadoop file system
