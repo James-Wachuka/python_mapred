@@ -1,5 +1,5 @@
 ## INTRODUCTION
-This is classic example of how python can be used to score sentiments in hadoop
+Using the mapreduce framework to score sentiments
 ## WHAT YOU NEED
 This example requires that one has a basic understanding of hadoop and mapreduce framework
 1. hadoop
@@ -14,7 +14,7 @@ you can use the following commands  for running this job on your hadoop file sys
 
 2. start-all                                # to start hadoop daemons
 3. hadoop fs -mkdir /input                 # create an input directory
-4. hadoop fs -put  opt/exmaple.txt /input    #to put  a text file for mapreduce into the input directory
+4. hadoop fs -put  opt/example.txt /input    #to put  a text file for mapreduce into the input directory
 5. hadoop jar opt/hadoop-streaming-2.*.*.jar -file opt/mapper.py -mapper.py "python mapper.py" -file opt/reducer.py -reducer "python reducer.py" -input /input/example.txt -output sentimentscore
 
 you must explicitly declare mapper and reducer files together with the input file and desired output name eg. sentimentscore
