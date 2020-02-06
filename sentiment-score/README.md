@@ -1,6 +1,6 @@
-INTRODUCTION
+## INTRODUCTION
 This is classic example of how python can be used to score sentiments in hadoop
-WHAT YOU NEED
+## WHAT YOU NEED
 This example requires that one has a basic understanding of hadoop and mapreduce framework
 hadoop
 python
