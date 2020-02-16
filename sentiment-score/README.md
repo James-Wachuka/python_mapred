@@ -20,7 +20,7 @@ you can use the following commands  for running this job on your hadoop file sys
 you must explicitly declare mapper and reducer files together with the input file and desired output name eg. sentimentscore
 hadoop-streaming.jar is used for running mapreduce tasks that are not written in java
 
-`hadoop fs -cat /user/opt/sentimentscore/part-00000` use this command to view your output
+`hadoop fs -cat /user/opt/sentimentscore/part-r-00000` use this command to view your output
 
 Also included are negative and positive words for use in scoring the sentiments
 
