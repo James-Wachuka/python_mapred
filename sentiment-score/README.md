@@ -1,6 +1,6 @@
-## INTRODUCTION
+#### Introduction
 Using the mapreduce framework to score sentiments
-## WHAT YOU NEED
+#### Tools
 This example requires that one has a basic understanding of hadoop and mapreduce framework
 * hadoop
 * python
@@ -18,6 +18,7 @@ you can use the following commands  for running this job on your hadoop file sys
 `hadoop jar opt/hadoop-streaming-2.*.*.jar -file opt/mapper.py -mapper.py "python mapper.py" -file opt/reducer.py -reducer "python reducer.py" -input /input/example.txt -output sentimentscore`
 
 you must explicitly declare mapper and reducer files together with the input file and desired output name eg. sentimentscore
+hadoop-streaming.jar is used for running mapreduce tasks that are not written in java
 
 `hadoop fs -cat /user/opt/sentimentscore/part-00000` use this command to view your output
 
