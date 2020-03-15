@@ -1,7 +1,4 @@
-"""
 
-@author: James
-"""
 
 # the reducer code for our mapreduce job
 #from operator import itemgetter
